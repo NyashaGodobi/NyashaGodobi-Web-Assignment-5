@@ -1,0 +1,23 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid grey;
+}
+
+td, th {
+    border: 2px solid grey;
+    text-align: left;
+    padding: 8px;
+}
+
+
+thead{
+    background-color: dimgrey;
+    color: white;
+}
+
+.custom-table{
+    font-weight: bold;
+    color: white;
+}

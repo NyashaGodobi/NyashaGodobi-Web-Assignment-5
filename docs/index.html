@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+    <!--favicon-->
+    <link rel="icon" type="image/png" sizes="64x64" href="static/img/">
+    <title>Zebra Assignment</title>
+
+    <!--jquery-->
+    <script src="static/js/jquery-slim.min.js"></script>
+
+    <!--css-->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="static/css/all.min.css" rel="stylesheet"/>
+    <link href="static/css/main.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container pt-lg-5">
+
+    <div class="row">
+        <!--zebra stripe-->
+        <div class="col-md-6 pt-2 pb-2">
+            <button class="btn btn-outline-info btn-lg w-100" onclick="zebraStripe()">
+                Zebra Stripe
+            </button>
+        </div>
+        <!--restore-->
+        <div class="col-md-6 pt-2 pb-2">
+            <button class="btn btn-outline-success btn-lg w-100" onclick="restoreStripe()">
+                Restore
+            </button>
+        </div>
+    </div>
+
+    <table id="enquiry_table" class="table table-bordered enquiry_table mt-lg-4" style="width:100%">
+        <thead>
+        <tr>
+            <th class="">Name</th>
+            <th class="">Reg Number</th>
+            <th class="">Department</th>
+        </tr>
+        </thead>
+        <tbody class="myBody" id="myBody">
+        <tr>
+            <td>Munashe Kelly</td>
+            <td>H210236G</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>Nyasha Godobi</td>
+            <td>H180138A</td>
+            <td>Software Engineering</td>
+        </tr>
+        <tr>
+            <td>Shingirai Hilton</td>
+            <td>H18003H</td>
+            <td>Pharmacy</td>
+        </tr>
+        <tr>
+            <td>Immaculate Ngwerume</td>
+            <td>H19234JF</td>
+            <td>Information Security and Assurance</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<!--js-->
+<script src="static/js/main.js"></script>
+
+</body>
+</html>
